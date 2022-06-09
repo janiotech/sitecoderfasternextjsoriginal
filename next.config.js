@@ -4,7 +4,7 @@ const nextConfig = {
   //   loader: 'akamai',
   //   path: 'https://coderfaster.com.br/',
   // },
-  reactStrictMode: true,
+  reactStrictMode: false,
 }
 
 module.exports = nextConfig
