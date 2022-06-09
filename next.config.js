@@ -4,7 +4,7 @@ const nextConfig = {
   //   loader: 'imgix',
   //   path: 'https://www.coderfaster.com.br/',
   // },
-  reactStrictMode: true,
+  reactStrictMode: false,
 }
 
 module.exports = nextConfig
