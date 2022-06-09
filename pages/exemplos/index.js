@@ -3,7 +3,7 @@ import Card from '../../components/Card/'
 import styles from './exemplos.module.css';
 //imagens
 import projetoOne from '../../img/Exemplos/projetoOne.jpg'
-import projetoTwo from '../../img/Exemplos/projetotwo.jpg'
+// import projetoTwo from '../../img/Exemplos/projetotwo.jpg'
 import projetoThree from '../../img/Exemplos/projetoThree.jpg'
 
 export const projetos = [
