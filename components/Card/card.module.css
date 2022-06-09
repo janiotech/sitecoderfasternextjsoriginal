@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(../../fonts/Poppins-Bold.ttf);
+}
+
+
+
+.Card{
+    width: 50%;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 20px;
+    max-width: 350px;
+    min-width: 250px;
+    margin: 16px 16px;
+}
+
+.Card h3{
+    color: black;
+    font-family: Poppins-Bold, Arial, Helvetica, sans-serif;
+    padding: 8px 0px;
+    font-size: 1.2rem;
+}

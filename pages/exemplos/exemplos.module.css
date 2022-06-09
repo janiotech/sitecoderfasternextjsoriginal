@@ -1,0 +1,11 @@
+.containerExemplos{
+    width: 100%;
+    padding-top: 100px;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right, #3f3a3a, #E8253E);
+}

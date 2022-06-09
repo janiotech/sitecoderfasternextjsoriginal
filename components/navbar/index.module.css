@@ -1,0 +1,158 @@
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url(../../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(../../fonts/OpenSans-Bold.ttf);
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 32px 64px;
+    z-index: 4;
+    position: absolute;
+}
+
+.menuMobile{
+    display: none;
+}
+
+.menu ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.menu ul li{
+    color: white;
+    padding: 0px 16px;
+    font-size: 14px;
+    font-family: OpenSans-Regular;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 25%;
+}
+
+.login p{
+    padding-right: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.login button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    min-width: 100px;
+    min-height: 50px;
+    border-radius: 10px;
+    background-color: #E8253E;
+    color: white;
+    box-shadow: 2px 2px 10px 0px #3f3a3a;
+}
+
+
+/*smartphone*/
+@media only screen and (max-width: 900px) {
+    .menu{
+        display: none;
+    }
+
+    .login{
+        display: none;
+    }
+    .menuMobile{
+        display: flex;
+        top: 100px;
+        flex-direction: column;
+        height: 85vh;
+        width: 100%;
+        position: absolute;
+        transition: all 0.5s ease;
+        opacity: 0;
+        left: -100%;
+        background-image: linear-gradient(to right, #3f3a3a, #E8253E);
+    }
+
+    .menuMobile.ativo{
+        left: 0;
+        opacity: 1;
+    }
+
+    .menuMobile ul{
+        padding: 0px 0px;
+    }
+
+    .menuMobile ul li{
+        padding: 16px;
+        width: 100%;
+        border-bottom: 1px solid white;
+        color: white;
+    }
+
+    .ContainerbuttonMenu{
+        width: 40px;
+        cursor: pointer;
+        height: 40px;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .ContainerbuttonMenu button{
+        display: block;
+        width: 30px;
+        height: 4px;
+        background-color: white;
+        position: absolute;
+        border-radius: 10px;
+        transition: all 0.3s ease;
+    }
+
+    .ContainerbuttonMenu button:nth-child(1){
+        margin-bottom: 20px;
+    }
+    .ContainerbuttonMenu button:nth-child(3){
+        margin-top: 20px;
+    }
+
+    /*animção*/
+    .ContainerbuttonMenu.ativo button:nth-child(1){
+        margin-bottom: 0;
+        transform: rotate(-45deg);
+    }
+    .ContainerbuttonMenu.ativo button:nth-child(2){
+        opacity: 0;
+    }
+    .ContainerbuttonMenu.ativo button:nth-child(3){
+        margin-top: 0;
+        transform: rotate(45deg);
+    }
+    /*end animation*/
+
+    .menuMobile ul{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .header{
+        padding: 32px 16px;
+    }
+}

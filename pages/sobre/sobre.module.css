@@ -1,0 +1,57 @@
+.sobre{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(to right, #3f3a3a, #E8253E);
+    padding-top: 100px;
+}
+
+.fraseContainer{
+    width: 100%;
+    padding: 0px 16;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    background-color: white;
+}
+
+.fraseContainer p{
+    color: black;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+
+.accordions{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 64px 16px;
+    background-image: linear-gradient(to right,#3f3a3a, #E8253E);
+}
+
+.titleAccordions{
+    color: black;
+    font-size: 1rem;
+    font-family: poppins-Bold,'Arial';
+}
+
+.subcontainer{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding:8px 0px;
+}
+
+.subcontainer h1{
+    color: white;
+    font-family: Poppins-Bold, 'Arial';
+    font-size: 1.5rem;
+    text-align: left;
+}
