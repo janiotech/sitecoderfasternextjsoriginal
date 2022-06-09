@@ -13,7 +13,7 @@ export const projetos = [
     },
     {
       title:"Blog",
-      img: projetoTwo
+      // img: projetoTwo
     },
     {
       title:"Landding Page #2",
