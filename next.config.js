@@ -2,7 +2,7 @@
 const nextConfig = {
   images: {
     loader: 'akamai',
-    path: './img',
+    path: 'https://www.coderfaster.com.br/',
   },
   reactStrictMode: true,
 }
