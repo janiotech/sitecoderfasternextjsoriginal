@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  images: {
-    loader: 'imgix',
-    path: 'https://www.coderfaster.com.br/',
-  },
+  // images: {
+  //   loader: 'imgix',
+  //   path: 'https://www.coderfaster.com.br/',
+  // },
   reactStrictMode: true,
 }
 
