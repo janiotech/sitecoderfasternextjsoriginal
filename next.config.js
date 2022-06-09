@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    loader: 'inginx',
+    loader: 'imgix',
     path: 'https://www.coderfaster.com.br/',
   },
   reactStrictMode: true,
