@@ -4,7 +4,7 @@ import style from './index.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import Logo from '../../img/logoMarcaNova.svg';
+import Logo from '../../img/logo.svg';
 
 const navbar = () => {
   const router = useRouter()
