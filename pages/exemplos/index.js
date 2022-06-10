@@ -8,7 +8,7 @@ import projetoThree from '../../img/Exemplos/projetoThree.jpg'
 
 export const projetos = [
     {
-      title:"Laddding Page #1",
+      title:"Ladding Page #1",
       img: projetoOne
     },
     {

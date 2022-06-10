@@ -10,7 +10,7 @@ import Button from '../Form/Button/'
 const Form = () => {
   const nome = userForm();
   const email = userForm('email');
-  const senha = userForm('password');
+  const senha = userForm();
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const [error,setError] = React.useState(false);
   // eslint-disable-next-line react-hooks/rules-of-hooks
