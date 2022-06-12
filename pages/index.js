@@ -41,10 +41,9 @@ function Home() {
         </a>
       </Link>
       <section className={style.home}>
-      <h1 style={{display:"none"}}>criação de sites</h1>
         <div className={style.background}>
           <div className={style.conjTitulo}>
-            <h1>criação de sites</h1>
+            <h1>Criação de sites qualificados</h1>
             <p>Projetamos, desenvolvemos e gerenciamos sites de alto impacto que geram leads, vendem produtos e contam histórias.</p>
             <div className={style.buttonsContainer}>
                 <Link href="/contato">
