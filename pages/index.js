@@ -43,7 +43,7 @@ function Home() {
       <section className={style.home}>
         <div className={style.background}>
           <div className={style.conjTitulo}>
-            <h1>Tudo o que você imagina pode ser real</h1>
+            <h1>criação de sites</h1>
             <p>Projetamos, desenvolvemos e gerenciamos sites de alto impacto que geram leads, vendem produtos e contam histórias.</p>
             <div className={style.buttonsContainer}>
                 <Link href="/contato">
